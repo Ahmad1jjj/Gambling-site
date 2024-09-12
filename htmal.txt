@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة التحكم</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">الإيداع</a></li>
+                <li><a href="#">السحب</a></li>
+                <li><a href="#">الإعدادات</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="user-dashboard">
+            <h2>لوحة المستخدم</h2>
+            <p>مرحبًا، [اسم المستخدم]</p>
+            <button onclick="deposit()">إيداع</button>
+            <button onclick="withdraw()">سحب</button>
+        </section>
+        <section id="admin-dashboard">
+            <h2>لوحة الإدارة</h2>
+            <p>مرحبًا، [اسم الإدمن]</p>
+            <button onclick="manageUsers()">إدارة المستخدمين</button>
+            <button onclick="viewTransactions()">عرض المعاملات</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
